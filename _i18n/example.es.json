@@ -29,5 +29,8 @@
     "title": "Ejemplo Modo de procesamiento de texto",
     "word": "Texto",
     "detail": "A modo de ejemplo RoboPaint sencillo para mostrar cómo construir su propio modo."
+  },
+  "status": {
+    "cancelled": "La impresión de texto cancelado."
   }
 }

@@ -29,5 +29,8 @@
   "buttons": {
     "save": "Klicken Sie auf, dies als die aktuelle Zeichnung zu speichern.",
     "print": "Klicken Sie hier um zu speichern und zum Druckmodus."
+  },
+  "status": {
+    "cancelled": "Textdruck abgebrochen."
   }
 }

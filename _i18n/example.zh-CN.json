@@ -29,5 +29,8 @@
     "rotation": "旋转：",
     "center": "中央",
     "right": "对"
+  },
+  "status": {
+    "cancelled": "文本打印取消。"
   }
 }

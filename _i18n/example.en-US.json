@@ -14,6 +14,9 @@
     "save": "Click to save this as the current drawing.",
     "print": "Click to save and move to print mode."
   },
+  "status": {
+    "cancelled": "Text printing cancelled."
+  },
   "labels": {
     "title": "Text Renderer",
     "spacing": "Char spacing:",

@@ -29,5 +29,8 @@
     "left": "Esquerda",
     "center": "Centro",
     "right": "Certo"
+  },
+  "status": {
+    "cancelled": "Impressão de texto cancelada."
   }
 }
