@@ -27,6 +27,54 @@ nav#control h3 {
   margin-top: 0;
 }
 
+/* Render controls overlay */
+#render-controls {
+  position: absolute;
+  height: 10em;
+  width: 80%;
+  bottom: 0;
+  height 10em;
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 1em;
+  padding: 0.5em;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1;
+  opacity: 0.8;
+  transform: translate(-50%, 0);
+  left: 50%;
+}
+
+#render-controls nav > div {
+  height: 45px;
+  width: 200px;
+  float: left;
+  margin: 0 0.5em;
+}
+
+#render-controls label {
+  font-size: 0.8em;
+  padding-bottom: 0.2em;
+}
+
+#render-controls input[type=range] {
+  width: 100%;
+}
+
+/* Control Secific Adjustments */
+#fonttext {
+  width: 100%;
+  resize: none;
+  height: 3em;
+}
+
+#fontselect {
+  margin: 9px 0;
+  width: 100%;
+  font-size: 1.1em;
+}
+
 /* Nav Controls & Button Graphics */
 fieldset#control {
   background-color: rgba(255,255,255,0.6);
@@ -94,15 +142,6 @@ fieldset#control {
   content: "Lower ";
 }
 
-/* Status Specific */
-#status {
-  text-align: center;
-}
-
-#status progress {
-  width: 100%;
-}
-
 #pause {
   background: linear-gradient(to bottom, #eff7f9 0%,rgb(249, 234, 239) 50%,rgb(242, 218, 230) 51%,rgb(249, 229, 231) 100%);
   border-radius: 11px;
@@ -162,18 +201,4 @@ fieldset#control {
   color: #777;
   cursor: default;
   font-style: italic;
-}
-
-#statusmessage {
-  font-size: 0.9em;
-  height: 2em;
-  margin-top: 0.5em;
-  line-height: 1em;
-  margin-bottom: 0.6em;
-}
-
-#control button:disabled, #control button:disabled:hover {
-  opacity: 0.5;
-  animation: none;
-  -webkit-animation: none;
 }

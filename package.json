@@ -1,6 +1,6 @@
 {
   "name": "robopaint-mode-example",
-  "version": "0.8.0",
+  "version": "0.8.5",
   "type": "robopaint_mode",
   "main": "example.js",
   "author": "techninja",
