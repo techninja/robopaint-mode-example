@@ -14,6 +14,12 @@ function onFrame(event) {
   canvas.onFrame(event);
 }
 
+function onMouseDrag(event) {
+  // Use the mouse drag delta to change the X/Y position offset.
+  $('#hcenter').val(Math.round($('#hcenter').val()) + event.delta.x).change();
+  $('#vcenter').val(Math.round($('#vcenter').val()) + event.delta.y).change();
+}
+
 // Show preview paths
 function onMouseMove(event)  {
   project.deselectAll();
