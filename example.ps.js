@@ -29,20 +29,4 @@ function onMouseMove(event)  {
   }
 }
 
-function onMouseDown(event)  {
-  if (event.item && event.item.parent === paper.actionLayer) {
-    paper.runPath(event.item);
-  }
-
-  // Delete specific items for debugging
-  if (event.item) {
-    if (event.item.children) {
-      paper.utils.ungroupAllGroups(event.item.parent);
-    } else {
-      event.item.remove();
-    }
-  }
-
-}
-
 canvas.paperInit(paper);
