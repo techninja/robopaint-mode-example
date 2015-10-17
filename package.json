@@ -1,6 +1,6 @@
 {
   "name": "robopaint-mode-example",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "type": "robopaint_mode",
   "main": "example.js",
   "author": "techninja",
@@ -9,7 +9,6 @@
     "core": false,
     "debug": true,
     "i18n": "native",
-    "icon": "icon-font",
     "index": "example.html",
     "name": "example",
     "opensvg": false,
@@ -19,6 +18,12 @@
       "jquery",
       "underscore",
       "mediasets"
-    ]
+    ],
+    "graphics": {
+      "icon": "images/example_icon.svg",
+      "previews": [
+        "images/example_preview_1.jpg"
+      ]
+    }
   }
 }
