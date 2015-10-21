@@ -2,6 +2,8 @@
 An example RoboPaint mode that renders text, and is great for learning How to
 make your own RoboPaint Mode!
 
+![Example Text Mode](images/example_preview_1.jpg?raw=true)
+
 This module is a mode for [RoboPaint](https://github.com/evil-mad/robopaint),
 the software for drawing robots, and your
 [friendly painting robot kit, the WaterColorBot](http://watercolorbot.com)!
