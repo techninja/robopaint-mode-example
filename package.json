@@ -1,7 +1,7 @@
 {
   "name": "robopaint-mode-example",
-  "version": "0.8.8",
-  "type": "robopaint_mode",
+  "version": "0.8.9",
+  "robopaint-type": "mode",
   "main": "example.js",
   "author": "techninja",
   "license": "MIT",
