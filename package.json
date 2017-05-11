@@ -1,12 +1,11 @@
 {
   "name": "robopaint-mode-example",
-  "version": "0.8.9",
+  "version": "0.9.0",
   "robopaint-type": "mode",
   "main": "example.js",
   "author": "techninja",
   "license": "MIT",
   "robopaint": {
-    "core": false,
     "debug": true,
     "i18n": "native",
     "index": "example.html",
@@ -25,5 +24,9 @@
         "images/example_preview_1.jpg"
       ]
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techninja/robopaint-mode-example.git"
   }
 }
